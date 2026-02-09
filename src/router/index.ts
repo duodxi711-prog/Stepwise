@@ -5,7 +5,7 @@ import PlanView from "../views/PlanView.vue";
 import BoardView from "../views/BoardView.vue";
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     { path: "/", redirect: "/setup" },
     { path: "/setup", component: SetupView },
